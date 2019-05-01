@@ -5,7 +5,8 @@
 		<title>Trees playground</title>
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
-	<body onload="dibujaTarjetas(registro)">
+<!--	<body onload="dibujaTarjetas(registro)"> -->
+		<body>
 		<h1>Benchtest WeMan Connect.</h1>
 		<div class="contenedor">
 			<div class="instrucciones">
@@ -23,10 +24,18 @@
 					<p>Tiempo: </p>
 					<h4>Buscar un registro</h4>
 					<input type="text" id="txtBuscaR1" />
-					<button onclick="">Buscar!</button>
+					<button onclick="binarySearch(valor, personas)">Buscar!</button>
+				</div>
+				<div id="inicio">
 					<p>Hora de inicio: </p>
+				</div>
+				<div id="fin">
 					<p>Hora de fin: <p>
+				</div>
+				<div id="tiempo">
 					<p>Tiempo: </p>
+				</div>
+					<div id="texto">
 					<p>Texto encontrado: </p>
 				</div>
 			</div>
